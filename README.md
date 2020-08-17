@@ -1,6 +1,6 @@
-# Pickete.js
+# PICKETEJS
 
-Tiny, light weight yet powerful Javascript utility library focused on common tasks and number manipulation for data analysis.
+Tiny, light weight yet powerful Javascript utility library focused on common  repetitive tasks and number manipulations for data analysis.
 
 ## Features
 

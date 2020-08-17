@@ -1,4 +1,3 @@
-
 class Pickete {
 
     static random(top) {
@@ -26,4 +25,4 @@ class Pickete {
     }
 }
 
-// console.log(Pickete.average([50, 100, 50]))
+export default Pickete
