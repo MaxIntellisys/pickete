@@ -1,7 +1,11 @@
 class Pickete {
 
-    static random(top) {
-        return Math.floor(Math.random() * top)
+    constructor(){
+        this.current = 0
+    }
+
+    get value() {
+        return this.current
     }
 
     static range(start, finish) {
@@ -15,14 +19,48 @@ class Pickete {
         return range
     }
 
-    static average(arr) {
+    random(top) {
+        this.current = Math.floor(Math.random() * top)
+        return this
+    }
+
+    average(arr) {
         let sum = 0
         for(let num of arr) {
             sum += num
         }
 
-        return Math.round(sum / arr.length)
+        this.current = Math.round(sum / arr.length)
+        return this
+    }
+
+    add(num) {
+        this.current += num
+        return this
+    }
+
+    substract(num) {
+        this.current -= num
+        return this
+    }
+
+    multiplyBy(num) {
+        this.current *= num
+        return this
+    }
+
+    state() {
+        return this
     }
 }
 
 export default Pickete
+
+// max in array
+// min in array
+// sum an arr
+
+const p = new Pickete
+// p.random(10).multiplyBy(10).average([10, 20, 55, 12])
+
+console.log(p.value)
