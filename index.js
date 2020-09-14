@@ -120,4 +120,4 @@ class Pickete {
   }
 }
 
-export default Pickete;
+module.exports = Pickete;

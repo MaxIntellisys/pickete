@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Tiny, light weight yet powerful Javascript utility library focused on common tasks and number manipulation for data analysis.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "node test.test.js"
   },

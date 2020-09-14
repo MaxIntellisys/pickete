@@ -1,5 +1,5 @@
-import assert from "assert";
-import pick from "./index.js";
+const assert = require("assert");
+const pick = require("./index");
 
 const range = pick.range(5);
 const range2 = pick.range(25, 30);
@@ -12,4 +12,3 @@ assert.deepStrictEqual(typeof random, "number");
 assert.deepStrictEqual(random < 100, true);
 
 // console.log(random)
-
