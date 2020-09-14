@@ -1,6 +1,6 @@
 {
   "name": "pickete",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tiny, light weight yet powerful Javascript utility library focused on common tasks and number manipulation for data analysis.",
   "main": "index.js",
   "scripts": {
